@@ -1,0 +1,53 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul{
+    
+    margin: 0px;
+}
+li{
+    padding: 0px;
+    margin: 0px;
+}
+.container-body{
+    max-width: 1770px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1440px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.row{
+    margin: 0 -15px;
+
+}
+
+.col-25{
+    max-width: 20%;
+}
+ @media(min-width:1400px){
+    .pro-item{
+        width: 20%;
+        margin: 0;
+    }
+    
+} 
+
+@font-face{
+    font-family: "Poppin-regular";
+    src: url(./font-popins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: "Poppins-Medium";
+    src: url(font-popins/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: url(./font-popins/Poppins-SemiBold.ttf);
+}
+
+  

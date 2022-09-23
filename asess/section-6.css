@@ -1,0 +1,47 @@
+.main-box{
+    margin-bottom: 5px;
+}
+.box-content{
+    display: block;
+    text-align: center;
+    padding: 58px 0px;
+}
+.icon{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 17px;
+    display: block;
+}
+.icon img{
+    height: auto;
+    max-width: 100%;
+}
+.icon img:hover{
+    cursor: pointer;
+    
+}
+.box-text1{
+ max-width: 240px;
+}
+.box-text2{
+    max-width: 200px;
+}
+.box-text3{
+    max-width: 200px;
+}
+.box-title{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 7px;
+    display: block;
+    font-family: "Poppins-Medium";
+
+}
+.box-des{
+    color: #868686;
+    font-size: 13px;
+    max-width: 100%;
+    font-family: "Poppin-regular";
+}

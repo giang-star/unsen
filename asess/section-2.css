@@ -1,0 +1,48 @@
+
+.prices-case{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 53px 0px;
+    padding-left: 15px;
+}
+
+.price-des{
+    width: 222px;
+    height: 222px;
+    border-radius: 50%;
+    background-color: rgb(245, 167, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:0 ;
+    margin-right: 75px;
+    
+    
+
+    
+    
+}
+.price-des:hover{
+    cursor: pointer;
+}
+.price-des:hover span{
+    
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.price-mar{
+    margin-right: 0px;
+}
+.price-title{
+    font-size: 20px;
+    font-family: "Poppins-Medium";
+    color: #000000;
+}
+.price-des span{
+    font-size: 40px;
+    font-family: "Poppins-Medium";
+    color: #000000;
+}
+
+  

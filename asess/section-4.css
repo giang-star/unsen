@@ -1,0 +1,179 @@
+
+.waps{
+    margin: 0px;
+}
+.content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-container>div{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.content-container>div:hover .content-img img{
+    scale: 1.2;
+    transition: all 0.5s ease;
+}
+.pin-content{
+    position: absolute;
+    top: 262px;
+    left: 522px;
+    width: 241px;
+    z-index: 20;
+}
+.pin-left{
+    top: 464px;
+    left: 319px;
+   
+}
+.pin-content .show-model{
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 5px solid rgba(244, 248, 251, 0.25);
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+}
+.show-model-2{
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 5px solid rgba(244, 248, 251, 0.25);
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+}
+.show-model-2:hover{
+    cursor: pointer;
+}
+.show-model:hover{
+    cursor: pointer;
+}
+
+
+.pin-inner{
+    padding: 10px 10px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 20px;
+    display: none;
+    opacity: 0;
+    z-index: 30;
+    
+}
+.pin-inner-2{
+    padding: 10px 10px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: -200px;
+    left: 75%;
+    display: none;
+}
+.open{
+    display: block;
+    opacity: 1;
+    position: relative;
+    z-index: 30;
+}
+.topimg{
+    width: 221px;
+    height: 241px;
+    
+    margin: 0;
+}
+.topimg img{
+    width: 100%;
+    height: 100%;
+}
+.topimg::before{
+    position: absolute;
+    content: "";
+    background-color:  rgba(183, 194, 215, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; 
+    opacity: 0;
+}
+.pin-inner:hover .topimg::before{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.pin-inner-2:hover .topimg::before{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.title-pin{
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppin-regular";
+}
+.pin-inner span{
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppin-regular";
+}
+.display{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    z-index: 18;
+
+}
+#display.active{
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+}
+
+  
+.content-wap{
+    position: relative;
+}
+.content-container{
+   margin: 0px;
+}
+.content-container>div{
+    height: 701px;
+    width: 100%;
+    max-width: 50%;
+}
+.content-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+  

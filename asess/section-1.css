@@ -1,0 +1,119 @@
+ .nav-content{
+    margin-top: 114px;
+} 
+.nav-content_sale{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
+}
+.nav-sale_item{
+    margin-right: 32px;
+    padding: 15.5px 0px;
+
+}
+.nav-sale_item a{
+    font-family: "Poppin-regular";
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}
+.site-content{
+    position: relative;
+}
+.item-content{
+    
+    overflow: hidden;
+    background-color: #bb1b1b;
+    height: 777px;
+    position: relative;
+}
+.item-text{
+    display: flex;
+    overflow: hidden;
+    margin-top: 266px;
+
+}
+.item-content:nth-child(1){
+    margin-left: -60px;
+}
+.sale {
+    margin-right: 20px;
+    font-size: 109.51px;
+    font-family: "Poppins-Medium";
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke-color: #ffffff;
+    line-height: 1.2;
+    text-transform: capitalize;
+   
+  }
+  .sale-webkit{
+    margin-right: 20px;
+    font-size: 109.51px;
+    font-family: "Poppins-Medium";
+    line-height: 1.2;
+    color:#ffffff;
+    text-transform: capitalize;
+  }
+  .site-tile{
+    position: absolute;
+    
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    top: 231px;
+    
+  }
+ .site-text{
+    margin-bottom: 147px;
+    
+ }
+ .site-text span{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Poppins-Medium";
+
+ }
+ .title-content{
+    margin-bottom: 48px;
+ }
+ .title-content span{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Poppins-Medium";
+ }
+ .btn-m-w{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .btn{
+    height: 50px;
+    width: 170px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins-Medium";
+    text-transform: uppercase;
+    margin: 7px;
+    border-radius: 3px;
+ }
+ .btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+ }
+  
+  
+  
+  
+  
+  
+
+  

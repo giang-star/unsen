@@ -1152,38 +1152,20 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="asess/app.js"></script>
     <script>
 
-        // tap-show_product
+       
         let display = document.querySelector('#display')
         var show_m = document.querySelector(".show-model")
         var show_m2 = document.querySelector(".show-model-2")
         var showmodel = document.querySelector('.pin-inner')
         var showmodel_2 = document.querySelector('.pin-inner-2')
-
+            
+        // tap-show_product
         function stop() {
             display.classList.remove('active')
             showmodel.classList.remove("open")
@@ -1231,7 +1213,6 @@
         // nav-tablet-mobile
         var acc = document.getElementsByClassName("active-nav");
         var i;
-
         for (i = 0; i < acc.length; i++) {
             acc[i].addEventListener("click", function () {
                 this.classList.toggle("active");

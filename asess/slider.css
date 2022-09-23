@@ -97,7 +97,7 @@
     list-style: none;
 }
 .slick-dots button{
-   
+    
     border-radius: 100%;
     font-size: 0px;
     border: 0px;
@@ -107,7 +107,9 @@
     margin-bottom: 10px;
    
 }
-  
+.slick-dots .slick-active button{
+    background-color: #000;
+}
   
 
   

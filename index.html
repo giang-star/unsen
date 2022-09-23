@@ -12,7 +12,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
 
     <!-- file-css -->
     <link rel="stylesheet" href="./asess/base.css">
@@ -122,7 +123,7 @@
                                         <li class="child-i"><a href="#">Privacy policy</a></li>
                                         <li class="child-i"><a href="#">Accessibility</a></li>
                                         <li class="child-i"><a href="#">About-us</a></li>
-                                        
+
                                     </ul>
 
                                 </div>
@@ -163,7 +164,7 @@
                 </div>
             </div>
         </div>
-        </div>
+
 
 
     </header>
@@ -346,7 +347,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
     </div>
@@ -1076,7 +1077,7 @@
     <!-- nav-tablet-mobile -->
     <div class="modals">
         <div class="click-modal">
-        
+
         </div>
         <div class="nav-menu">
             <div class="head">
@@ -1114,38 +1115,40 @@
                                 <li>Men_4</li>
                             </ul>
                         </div>
-                        
+
                     </li>
                     <li class="main-item"><a href="#" class="active-nav">SALE
-                        <span class="nav-span"></span>
-                    </a>
+                            <span class="nav-span"></span>
+                        </a>
 
-                    <div class="panel">
-                        <ul class="panel-menu">
-                            <li>Man's-sale</li>
-                            <li>Women's-sale</li>
-                            <li>Best-sale</li>
-                            <li>Final-few</li>
-                        </ul>
-                    </div></li>
+                        <div class="panel">
+                            <ul class="panel-menu">
+                                <li>Man's-sale</li>
+                                <li>Women's-sale</li>
+                                <li>Best-sale</li>
+                                <li>Final-few</li>
+                            </ul>
+                        </div>
+                    </li>
                     <li class="main-item"><a href="#" class="active-nav">ABOUT
-                        <span class="nav-span"></span>
-                    </a>
+                            <span class="nav-span"></span>
+                        </a>
 
-                    <div class="panel">
-                        <ul class="panel-menu">
-                            <li>About_1</li>
-                            <li>About_2</li>
-                            
-                        </ul>
-                    </div></li>
+                        <div class="panel">
+                            <ul class="panel-menu">
+                                <li>About_1</li>
+                                <li>About_2</li>
+
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
 
 
         </div>
 
-        
+
 
     </div>
 
@@ -1165,13 +1168,15 @@
 
 
 
-    
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="asess/app.js"></script>
     <script>
-        
+
         // tap-show_product
         let display = document.querySelector('#display')
         var show_m = document.querySelector(".show-model")
@@ -1183,7 +1188,7 @@
             display.classList.remove('active')
             showmodel.classList.remove("open")
             showmodel_2.classList.remove("open")
-            
+
         }
         show_m.addEventListener("click", function show() {
 
@@ -1225,42 +1230,42 @@
 
         // nav-tablet-mobile
         var acc = document.getElementsByClassName("active-nav");
-            var i;
+        var i;
 
-            for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
                 if (panel.style.display === "block") {
-                panel.style.display = "none";
+                    panel.style.display = "none";
                 } else {
-                panel.style.display = "block";
+                    panel.style.display = "block";
                 }
             });
-            }
-            var cli_mobi=document.querySelector(".click-mob")
-            var cli_xmark=document.querySelector(".xmark")
-            var cli_modal= document.querySelector(".click-modal")
-            var navmenu= document.querySelector(".nav-menu")
+        }
+        var cli_mobi = document.querySelector(".click-mob")
+        var cli_xmark = document.querySelector(".xmark")
+        var cli_modal = document.querySelector(".click-modal")
+        var navmenu = document.querySelector(".nav-menu")
 
-            var mona= document.querySelector(".modal")
-            cli_mobi.addEventListener("click",function(){
-                navmenu.classList.add("effet")
-                cli_modal.classList.add('active')
+        var mona = document.querySelector(".modal")
+        cli_mobi.addEventListener("click", function () {
+            navmenu.classList.add("effet")
+            cli_modal.classList.add('active')
 
-            })
-            cli_xmark.addEventListener("click",function(){
-                // mona.style.display="none";
-                navmenu.classList.remove("effet")
-                cli_modal.classList.remove('active')
-            })
-            cli_modal.addEventListener("click",function(){
-                navmenu.classList.remove("effet")
-                cli_modal.classList.remove('active')
-                // mona.style.display="none";
-            })
-            
-           
+        })
+        cli_xmark.addEventListener("click", function () {
+            // mona.style.display="none";
+            navmenu.classList.remove("effet")
+            cli_modal.classList.remove('active')
+        })
+        cli_modal.addEventListener("click", function () {
+            navmenu.classList.remove("effet")
+            cli_modal.classList.remove('active')
+            // mona.style.display="none";
+        })
+
+
 
 
     </script>
